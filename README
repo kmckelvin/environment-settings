@@ -1,0 +1,3 @@
+These are my environment settings.
+
+Microsoft.PowerShell_Profile.ps1 should be placed in the $Env:Userprofile\Documents\WindowsPowerShell directory.
