@@ -1,3 +1,5 @@
 These are my environment settings.
 
 Microsoft.PowerShell_Profile.ps1 should be placed in the $Env:Userprofile\Documents\WindowsPowerShell directory.
+
+VS2010-ink is based on Rob Conery's WekeRoad-Ink theme with a few customisations for the VS2010 PowerTools Pro extension.
