@@ -3,6 +3,7 @@ $Env:Path = $Env:Path + ";C:\devtools\git\bin"
 
 # Always import psake
 Import-Module("C:\devtools\psake\psake.psm1")
+Set-Alias psake Invoke-psake
 
 # Alias to open Notepad++ on a file
 function npp ($file) {
@@ -36,4 +37,9 @@ function vsh {
         “Opening {0} …” -f $solutions.Name
         vs $solutions.Name
     }
+}
+
+#Open the GIT Bash in the current PowerShell window
+function gitbash {
+	& "C:\devtools\git\git-bash.bat"
 }
